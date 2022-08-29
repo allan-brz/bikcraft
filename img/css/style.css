@@ -1,86 +1,21 @@
-body {
-  margin: 0px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-ul {
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-.header-bg {
-  background-color: #000000;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  max-width: 1200px;
-  box-sizing: border-box;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-  gap: 40px;
-  align-items: center;
-}
-
-.header-itens {
-  display: flex;
-  gap: 40px;
-}
-
-.header-itens a {
-  display: inline-block;
-  color: #ffffff;
-  padding: 16px 0;
-  font-size: 1.125rem;
-  position: relative;
-}
-
-.header-itens a:after {
-  content: "";
-  display: block;
-  height: 2px;
-  width: 0;
-  background-color: #ffffff;
-  margin-top: 4px;
-  transition: 0.3s;
-  position: absolute;
-}
-
-.header-itens a:hover:after {
-  width: 100%;
-}
-
-@media (max-width: 800px) {
-  .header-itens {
-    gap: 20px;
-  }
-
-  .header-itens a {
-    background-color: #111111;
-    padding: 12px 8px;
-    border-radius: 4px;
-  }
-
-  .header-itens a:after {
-    display: none;
-  }
-}
-
-@media (max-width: 600px) {
-  .header-itens a {
-    font-size: 0.875rem;
-  }
-
-  .header {
-    justify-content: center;
-    gap: 20px;
-  }
-}
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./home/introducao.css";
+@import "./home/componentes.css";
+@import "./home/tipografia.css";
+@import "./home/cores.css";
+@import "./bicicletas/bicicletas-lista.css";
+@import "./bicicletas/tecnologia.css";
+@import "./home/parceiros.css";
+@import "./home/depoimento.css";
+@import "./seguros/seguros.css";
+@import "./global/footer.css";
+@import "./termos/termos.css";
+@import "./bicicletas/bicicletas.css";
+@import "./seguros/vantagens.css";
+@import "./seguros/perguntas.css";
+@import "./bicicleta/bicicleta.css";
+@import "./bicicleta/seguro.css";
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
+@import "./home/formulario.css";

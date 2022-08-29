@@ -1,0 +1,81 @@
+.depoimento {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--cor-p1);
+  padding: 0px;
+}
+.depoimento img {
+  border-radius: 0px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.depoimento-descricao {
+  align-self: end;
+}
+
+.depoimento-descricao p {
+  font-size: 2.25rem;
+  font-family: "Merriweather";
+  color: var(--cor-p5);
+  padding-left: 60px;
+  align-self: end;
+  width: 25ch;
+  position: relative;
+}
+
+.depoimento-descricao span {
+  display: block;
+  color: var(--cor-p4);
+  text-transform: inherit;
+  font-weight: 600;
+  padding-left: 60px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.depoimento-descricao p::before {
+  content: "“";
+  color: var(--cor-p2);
+  font-size: 5rem;
+  position: absolute;
+  top: -25px;
+  left: 20px;
+}
+
+.depoimento-descricao p::after {
+  content: "”";
+  color: var(--cor-p2);
+  font-size: 5rem;
+  position: absolute;
+}
+
+@media (max-width: 800px) {
+  .depoimento {
+    grid-template-columns: 1fr;
+  }
+
+  .depoimento-descricao p {
+    font-size: 1.5rem;
+    padding-top: 50px;
+    margin: auto;
+  }
+
+  .depoimento-descricao p::before {
+    top: 25px;
+    left: 20px;
+  }
+
+  .depoimento-descricao p::after {
+    content: "”";
+    color: var(--cor-p2);
+    font-size: 5rem;
+    position: absolute;
+  }
+
+  .depoimento-descricao span {
+    font-size: 1.125rem;
+    text-align: center;
+    padding-right: 10px;
+  }
+}

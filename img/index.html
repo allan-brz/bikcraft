@@ -5,20 +5,25 @@
   <meta charset="UTF-8">
   <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
   <title>Bikcraft</title>
 </head>
 
 <body>
 
   <header class="header-bg">
-    <div class="header">
+    <div class="header container">
       <a href="./">
         <img src="/img/bikcraft.svg" alt="bikcraft">
       </a>
 
       <nav aria-label="primaria">
-        <ul class="header-itens">
+        <ul class="header-itens font-1-m cor-0">
           <li><a href="./bicicletas.html">Bicicletas</a></li>
           <li><a href="./seguros.html">Seguros</a></li>
           <li><a href="./contato.html">Contato</a></li>
@@ -27,7 +32,163 @@
     </div>
   </header>
 
+  <main class="introducao-bg" aria-label="introducao">
+    <div class="introducao container">
+      <div class="introducao-conteudo">
+        <h1 class="font-1-xxl">Bicicletas feita sob medida<span>.</span></h1>
+        <p class="font-2-l">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.</p>
+        <a href="/" class="botao">Selecione a sua</a>
+      </div>
+      <div class="introducao-img">
+        <img src="/img/fotos/introducao.jpg">
+      </div>
+    </div>
+  </main>
 
+  <article class="bicicletas-lista">
+    <h2 class="container font-1-xxl">escolha a sua<span class="cor-p1">.</span></h2>
+    <div class="bicicletas">
+      <ul>
+        <li>
+          <a href="./bicicletas/magic.html">
+            <img src="/img/bicicletas/magic-home.jpg" alt="Bicicleta preta">
+            <h3 class="font-1-xl">Magic Night</h3>
+            <span class="font-1-m-b cor-8">R$2999</span>
+          </a>
+        </li>
+        <li>
+          <a href="./bicicletas/nimbus.html">
+            <img src="/img/bicicletas/nimbus-home.jpg" alt="Bicicleta preta">
+            <h3 class="font-1-xl ">Nimbus Stark</h3>
+            <span class="font-1-m-b cor-8">R$4999</span>
+          </a>
+        </li>
+        <li>
+          <a href="./bicicletas/nebula.html">
+            <img src="/img/bicicletas/nebula-home.jpg" alt="Bicicleta preta">
+            <h3 class="font-1-xl">Nebula Cosmic</h3>
+            <span class="font-1-m-b cor-8">R$3999</span>
+          </a>
+        </li>
+      </ul>
+
+  </article>
+
+  <article class="tecnologia">
+    <div class="tecnologia-bg">
+      <div class="tecnologia-lista container">
+        <div class="tecnologia-descricao">
+          <h2 class="font-1-l-b cor-0">Tecnologia Avançada</h2>
+          <h1 class="font-1-xxl">voce escolhe as suas cores e compononentes<span class="cor-p1">.</span></h1>
+          <p class="font-2-l cor-5">Cada Bikcraft é única e possui a sua identidade. As medidas serão exatas para o seu corpo e altura, garantindo maior conforto e ergonomia na sua pedalada. Você pode também personalizar completamente as suas cores.</p>
+          <a class="link" href="/">Escolha um modelo</a>
+          <div class="tecnologia-caracteristica">
+            <ul class="tecnologia-desempenho">
+              <li>
+                <img src="./icones/eletrica.svg" alt="">
+                <h3 class="font-1-l-b cor-0">Motor Elétrico</h3>
+                <p class="font-2-s cor-5">Toda Bikcraft é equipada com um motor elétrico que possui duração de até 120h. A bateria é recarregada com a sua energia gasta ao pedalar.</p>
+              </li>
+              <li>
+                <img src="./icones/rastreador.svg" alt="">
+                <h3 class="font-1-l-b cor-0">Rastreador</h3>
+                <p class="font-2-s cor-5">Sabemos o quão preciosa é a sua Bikcraft, por isso adicionamos rastreadores e sistemas anti-furto para garantir o seu sossego.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="tecnologia-img">
+          <img src="/img/fotos/tecnologia.jpg" alt="tecnologia">
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <section class="parceiros" aria-label="Nossos Parceiros">
+    <h2 class="container font-1-xxl">nossos parceiros<span class="cor-p1">.</span></h2>
+    <ul>
+      <li><img src="./parceiros/caravan.svg" alt="Caravan"></li>
+      <li><img src="./parceiros/ranek.svg" alt="ranek"></li>
+      <li><img src="./parceiros/handel.svg" alt="handel"></li>
+      <li><img src="./parceiros/dogs.svg" alt="dogs"></li>
+      <li><img src="./parceiros/lescone.svg" alt="lescone"></li>
+      <li><img src="./parceiros/flexblog.svg" alt="flexblog"></li>
+      <li><img src="./parceiros/wildbeast.svg" alt="wildbeast"></li>
+      <li><img src="./parceiros/surfbot.svg" alt="surfbot"></li>
+    </ul>
+  </section>
+
+  <section class="depoimento" aria-label="Depoimento">
+    <div class="depoimento-img">
+      <img src="./fotos/depoimento.jpg" alt="Mulher andando com uma Bikcraft">
+    </div>
+    <div class="depoimento-descricao">
+      <p>Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez foi intensificar o meu amor por esta atividade. Recomendo à todos que amo.</p>
+      <span class="font-1-l-b">Ana Júlia</span>
+    </div>
+  </section>
+
+  <article class="seguros-bg">
+    <div class="seguros container">
+      <h2 class="font-1-xxl cor-0">seguros<span class="cor-p1">.</span></h2>
+      <div class="seguros-descricao">
+        <h3 class="cor-5 font-1-xl">PRATA</h2>
+          <span class="font-1-xl cor-1">R$ 199<span class="font-1-s-b cor-5">mensal</span></span>
+          <ul class="font-2-l cor-0">
+            <li>Duas trocas por ano</li>
+            <li>Assistência técnica</li>
+            <li>Suporte 08h às 18h</li>
+            <li>Cobertura estadual</li>
+          </ul>
+          <a class="botao secundario">Inscreva-se</a>
+      </div>
+
+      <div class="seguros-descricao">
+        <h3 class="font-1-xl cor-p1">OURO</h2>
+          <span class="font-1-xl cor-1">R$ 299<span class="font-1-s-b cor-5">mensal</span></span>
+          <ul class="font-2-l cor-0">
+            <li>Duas trocas por ano</li>
+            <li>Assistência especial</li>
+            <li>Suporte 24h</li>
+            <li>Cobertura nacional</li>
+            <li>Descontos em parceiros</li>
+            <li>Acesso ao Grupo Bikcraft</li>
+          </ul>
+          <a class="botao">Inscreva-se</a>
+      </div>
+    </div>
+  </article>
+
+  <footer class="footer-bg">
+    <div class="footer container">
+      <img src="/img/bikcraft.svg" alt="bikcraft">
+      <ul>
+        <h3 class="font-1-l-b cor-0">Contato</h3>
+        <ul class="font-2-m cor-5 footer-endereco">
+          <li><a href="tel:+5531999999">+55 31 9999-9999</a></li>
+          <li><a href="mailto:bikcraft@contato.com">bikcraft@contato.com</a></li>
+          <li>Rua logo ali, 1612</li>
+          <li>Teresina, Pi</li>
+          <li class="footer-redes">
+            <img src="./redes/instagram.svg">
+            <img src="./redes/facebook.svg">
+            <img src="./redes/youtube.svg">
+          </li>
+        </ul>
+      </ul>
+
+
+      <div class="footer-termos">
+        <h3 class="font-1-l-b cor-0">Informações</h3>
+        <a href="./seguros.html" class="font-2-m cor-5">Seguros</a>
+        <a href="./bicicletas.html" class="font-2-m cor-5">Bicicletas</a>
+        <a href="./contato.html" class="font-2-m cor-5">Contato</a>
+        <a href="./termos.html" class="font-2-m cor-5">Termos e Condições</a>
+      </div>
+
+      <span class="footer-direitos font-2-m cor-5">Bikcraft © Alguns direitos reservados</span>
+    </div>
+  </footer>
 
 </body>
 

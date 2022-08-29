@@ -1,0 +1,27 @@
+.vantagens-bg {
+  background-color: var(--cor-12);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.vantagens h2 {
+  margin-bottom: 60px;
+}
+
+.vantagens-descricao {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+  gap: 40px;
+}
+
+.vantagens-descricao span {
+  display: block;
+  color: var(--cor-0);
+  font-family: "Poppins";
+  margin-bottom: 12px;
+}
+
+.vantagens-descricao img {
+  display: block;
+  margin-bottom: 8px;
+}
